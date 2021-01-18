@@ -37,15 +37,39 @@ nav a {
 /* sections */
 .section-1 {
   height: 100vh;
-  background-color: red;
 }
 
-
-
-/*
 .centered {
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50% -50%);
-} */
+  transform: translate(-50%, -50%);
+}
+
+.item {
+  width: 40%;
+  height: 60%;
+}
+
+.item img {
+  width: 100%;
+}
+
+.item h2 {
+  text-transform: uppercase;
+  color: yellow;
+  text-align: center;
+  font-size: 30px;
+}
+
+#first-section {
+  background-color: red;
+}
+
+#second-section {
+  background-color: green;
+}
+
+#third-section {
+  background-color: yellow;
+}
