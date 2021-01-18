@@ -9,9 +9,10 @@ body {
 }
 
 /* header */
-nav {
+header {
   position: fixed;
   right: 10px;
+  z-index: 10;
 }
 
 nav li {
@@ -35,8 +36,9 @@ nav a {
 /* /header */
 
 /* sections */
-.section-1 {
+.section {
   height: 100vh;
+  position: relative;
 }
 
 .centered {
